@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+<label>First Name: <input type="text" placeholder="John" required></label>
+<label>Last Name: <input type="text" placeholder="Smith" required></label><br>
+Male<input type="radio" name="gender">
+Female <input type="radio" name="gender">
+Other <input type="radio" name="gender"><br>
+<label>Email: <input type="email" placeholder="your email" required></label>
+<label>Password:</label>
+<input type="Password" pattern=".{5,10}" required title="5 to 10 characters"><br>
+<label>Birthday:</label>
+<select name="Month">
+	<option>Month</option>
+	<option>Jan</option>
+	<option>Feb</option>
+	<option>March</option>
+	<option>April</option>
+	<option>June</option>
+	<option>July</option>
+	<option>Aug</option>
+	<option>Sep</option>
+	<option>Oct</option>
+	<option>Nov</option>
+	<option>Dec</option>
+</select>
+<select name="Day">
+	<option>Day</option>
+	<option>19</option>
+	<option>20</option>
+	<option>21</option>
+	<option>22</option>
+	<option>23</option>
+	<option>24</option>
+	<option>25</option>
+</select>
+<select name="Year">
+	<option>Year</option>
+	<option>1994</option>
+	<option>1995</option>
+</select><br>
+I agree to the terms and conditions
+<input type="checkbox"><br>
+<input type="submit">
+</form>
+</body>
+</html>
