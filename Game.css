@@ -1,0 +1,23 @@
+table{
+margin:0 auto;
+}
+
+td{
+width:100px;
+height:100px;
+}
+
+#middle{
+border-left:1px solid black;
+border-right:1px solid black;
+}
+
+#remain,.apply{
+border-top:1px solid black;
+border-bottom:1px solid black;
+}
+
+h1{
+text-align:center;
+}
+
